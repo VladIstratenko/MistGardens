@@ -1,0 +1,132 @@
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.first__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 528px;
+}
+
+.first__title {
+    font-family: var(--Bask);
+    color: var(--header-color);
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.first__descr {
+    margin-top: 16px;
+    font-family: var(--R);
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.first__buttons {
+    display: flex;
+    margin-top: 32px;
+}
+
+.first__img {
+    display: inline-block;
+    max-height: 660px;
+    width: 100%;
+    max-width: 478px;
+    border-radius: 500px 500px 0 0;
+}
+
+@media (max-width: 1024px) {
+    .first-container {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 56px;
+    }
+
+    .first__content {
+        max-width: 471px;
+    }
+
+    .first__title {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .first__descr {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .first__buttons {
+        justify-content: center;
+    }
+
+    .first__img {
+        margin-top: 64px;
+        width: 100%;
+        max-width: 378px;
+    }
+
+    .first-container {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 450px) {
+    .first-container {
+        margin-top: 26px;
+    }
+
+    .first__title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .first__descr {
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .first__buttons {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .first__img {
+        margin-top: 56px;
+        width: 100%;
+        max-width: 265px;
+    }
+
+    .primary-btn {
+        padding: 15px 27px;
+        margin-right: 8px;
+    }
+
+    .secondary-btn {
+        padding: 15px 27px;
+    }
+}
+
+@media (max-width: 375px) {
+    .primary-btn {
+        padding: 13px 24px;
+        margin-right: 8px;
+        font-size: 10px;
+    }
+
+    .secondary-btn {
+        padding: 13px 24px;
+        font-size: 10px;
+    }
+}

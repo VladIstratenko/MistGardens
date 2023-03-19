@@ -1,0 +1,26 @@
+body {
+    background-color: var(--body);
+    font-family: var(--R);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.container {
+    padding: 0 16px;
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: var(--Bask);
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.nature-container {
+    padding: 0 16px;
+    max-width: 1072px;
+    margin: 0 auto;
+}

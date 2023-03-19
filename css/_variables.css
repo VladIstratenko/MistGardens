@@ -1,0 +1,11 @@
+:root {
+    --body: #e4e4e4;
+    --R: 'Roboto', sans-serif;
+    --Bask: 'Libre Baskerville', sans-serif;
+    --primary-color: #475F45;
+    --primary-color-dark: rgb(111, 158, 108);
+    --header-color: #343D33;
+    --haki-color: #414840;
+    --white-color: #FFFFFF;
+    --hover--color: rgb(133, 90, 17);
+}

@@ -1,0 +1,16 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import "/css/_reset.css";
+@import "/css/_variables.css";
+@import "/css/_global.css";
+@import "/css/_buttons.css";
+/* @import "/css/button.css"; */
+
+/* COMPONENTS */
+@import "/css/_burger.css";
+@import "/css/componets/_header.css";
+@import "/css/componets/_first.css";
+@import "/css/componets/_nature.css";
+@import "/css/componets/_news.css";
+@import "/css/componets/_footer.css";
